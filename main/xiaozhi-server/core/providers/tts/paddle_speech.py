@@ -150,3 +150,4 @@ class TTSProvider(TTSProviderBase):
 
         except Exception as e:
             raise Exception(f"Error during TTS WebSocket request: {e} while processing text: {text}")
+            
